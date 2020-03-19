@@ -110,7 +110,7 @@ body{
         @include h-courosal();
     }
     hr{
-        width:58%;
+        width:30%;
         border-top : 2px solid;
         @include flexcenter();
         @include h-courosal();
@@ -131,7 +131,7 @@ body{
         @include flexcenter();   
     }
     hr{
-        width:100%;
+        width:80%;
         border-top : 2px solid;
         @include flexcenter();
         @include h-courosal();
@@ -142,8 +142,14 @@ footer{
     margin-left : 0%;
     @include flexcenter();
     img{
-        width : 60px;
+        width : 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
     }
+}
+.container-footer{
+    @include flexcenter();
 }
 
 
