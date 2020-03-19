@@ -1,0 +1,150 @@
+@mixin h-courosal{
+    color: #3D3A3A !important;
+    font-family: 'Bellota', cursive;; 
+}
+@mixin flexcenter{
+    display: flex;
+    justify-content: center;
+}
+@mixin produk-size{
+    margin-top : 7%;
+    margin-bottom : 2%;
+    width : 568px;
+    height : 568px;
+}
+@mixin size-image-main3{
+    width : 450px;
+    height: 450px;
+    margin-bottom : 20px;
+}
+
+body{
+    background-color: white;
+}
+.navbar-fixed{
+    background-color: 766060 !important;
+    font-family: 'Bubblegum Sans', cursive; 
+    a:hover{
+        color: grey !important;
+    }  
+}
+.logo {
+    color: #3D3A3A !important;
+   
+}
+// .navigasi :hover{
+//     background-color : #FCFFD4 !important;
+    
+// }
+// .dropdown-fixed{
+//     :hover{
+//         background-color: white !important;
+//     }
+// }
+.main1{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    h5{
+        font-size: 36pt;
+        @include h-courosal();
+        
+    }
+    h6{
+        font-size: large;
+        @include h-courosal() ;  
+    }
+    hr{
+        width: 90%;
+        border-top: 2px solid;
+        @include h-courosal();
+    }
+}
+
+.main2{
+    @include flexcenter();
+    h1{
+        margin-top : 3%;
+        @include flexcenter();
+        @include h-courosal();
+    }
+    h2{
+        margin-top : 7%;
+        @include flexcenter();
+        @include h-courosal();
+    }
+    ol{
+        margin : 5% 3% 0 0;
+        @include h-courosal();
+    }
+    li{
+        margin-top : 2%;
+    }
+    hr{
+        width: 20%;
+        border-top : 2px solid;
+        @include flexcenter();
+        @include h-courosal();
+    }
+    img{
+        @include produk-size();
+    }
+}
+.hr-namo{
+    width: 100% !important; 
+    border-top : 3px solid !important;
+    color: black;
+    @include flexcenter() ;
+    @include h-courosal();
+}
+.namo-black{
+    background-color: black !important;
+    color: white !important;
+}
+.main3{
+    @include flexcenter();
+    h1{
+        margin-top : 3%;
+        @include flexcenter();
+        @include h-courosal();
+    }
+    hr{
+        width:58%;
+        border-top : 2px solid;
+        @include flexcenter();
+        @include h-courosal();
+    }
+    img{
+        @include size-image-main3();
+        @include flexcenter();
+    }
+}
+.model1{
+    @include flexcenter();
+}
+
+.section-footer {
+    h1{
+        margin-top : 3%;
+        @include h-courosal();
+        @include flexcenter();   
+    }
+    hr{
+        width:100%;
+        border-top : 2px solid;
+        @include flexcenter();
+        @include h-courosal();
+    }
+}
+footer{
+    background-color: rgb(206, 195, 150);
+    margin-left : 0%;
+    @include flexcenter();
+    img{
+        width : 60px;
+    }
+}
+
+
+

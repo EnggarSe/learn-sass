@@ -1,0 +1,218 @@
+body {
+  background-color: white;
+}
+
+.navbar-fixed {
+  background-color: 766060 !important;
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+.navbar-fixed a:hover {
+  color: grey !important;
+}
+
+.logo {
+  color: #3D3A3A !important;
+}
+
+.main1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.main1 h5 {
+  font-size: 36pt;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.main1 h6 {
+  font-size: large;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.main1 hr {
+  width: 90%;
+  border-top: 2px solid;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.main2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main2 h1 {
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.main2 h2 {
+  margin-top: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.main2 ol {
+  margin: 5% 3% 0 0;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.main2 li {
+  margin-top: 2%;
+}
+
+.main2 hr {
+  width: 20%;
+  border-top: 2px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.main2 img {
+  margin-top: 7%;
+  margin-bottom: 2%;
+  width: 568px;
+  height: 568px;
+}
+
+.hr-namo {
+  width: 100% !important;
+  border-top: 3px solid !important;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.namo-black {
+  background-color: black !important;
+  color: white !important;
+}
+
+.main3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main3 h1 {
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.main3 hr {
+  width: 58%;
+  border-top: 2px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+.main3 img {
+  width: 450px;
+  height: 450px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.model1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-footer h1 {
+  margin-top: 3%;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-footer hr {
+  width: 100%;
+  border-top: 2px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3D3A3A !important;
+  font-family: 'Bellota', cursive;
+}
+
+footer {
+  background-color: #cec396;
+  margin-left: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer img {
+  width: 60px;
+}
+/*# sourceMappingURL=style.css.map */
